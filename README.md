@@ -10,7 +10,7 @@ The application is executed from the command-line or sbt shell, where with the a
 
 Available CLI Options.
 
-´´´
+```sh
 Input options:
    --input-file [FILE] : The input CSV file (required).
    --input-separator [STRING] : The separator for input (optional, defaults to ",").
@@ -26,4 +26,3 @@ Transformation options:
    --filter [COLUMN] ( < | > | <= | >= | == | != ) [NUMBER] : Filter on the column (optional, can be repeated).
    --filter-is-empty [COLUMN] : Filter out lines with non-empty cells in the specified column (optional, can be repeated).
    --filter-is-not-empty [COLUMN] : Filter out lines with empty cells in the specified column (optional, can be repeated).
-´´´
